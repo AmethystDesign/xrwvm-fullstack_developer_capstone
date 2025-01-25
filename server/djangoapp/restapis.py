@@ -9,7 +9,7 @@ backend_url = os.getenv(
     'backend_url', default="https://tongxr-3030.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai")
 sentiment_analyzer_url = os.getenv(
     'sentiment_analyzer_url',
-    default="http://localhost:5050/")
+    default="https://tongxr-5050.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai")
 
 # Add code for get requests to back end
 def get_request(endpoint, **kwargs):
